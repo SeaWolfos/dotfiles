@@ -2,7 +2,7 @@
 
 from ipdata import ipdata
 from pprint import pprint
-with open('../secrets/ipdata.co.key') as key:
+with open('../secrets/geo.key') as key:
     key.readline().strip()
     ipdata = ipdata.IPData(key)
     ipinput = raw_input("Enter IP address: ")
