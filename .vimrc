@@ -3,7 +3,7 @@ set tabstop=3
 set shiftwidth=3
 set expandtab
 
-*:always in :set paste mode*
+" *:always in :set paste mode*
 let &t_SI .= "\<Esc>[?2004h"
 let &t_EI .= "\<Esc>[?2004l"
 
