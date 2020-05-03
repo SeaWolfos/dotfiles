@@ -14,3 +14,6 @@ function! XTermPasteBegin()
        set paste
          return ""
       endfunction
+
+set wrap
+set linebreak
